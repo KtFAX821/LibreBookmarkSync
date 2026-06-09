@@ -1,0 +1,594 @@
+{
+    "extensionName": {
+        "message": "LibreBookmarkSync",
+        "description": ""
+    },
+    "extensionDescription": {
+        "message": "跨浏览器的开源书签同步扩展",
+        "description": ""
+    },
+    "uploadBookmarks": {
+        "message": "上传",
+        "description": ""
+    },
+    "downloadBookmarks": {
+        "message": "下载",
+        "description": ""
+    },
+    "syncBookmarks": {
+        "message": "同步书签",
+        "description": ""
+    },
+    "syncNow": {
+        "message": "立即同步",
+        "description": ""
+    },
+    "removeAllBookmarks": {
+        "message": "删除全部书签",
+        "description": ""
+    },
+    "settings": {
+        "message": "设置",
+        "description": ""
+    },
+    "openSettings": {
+        "message": "设置",
+        "description": ""
+    },
+    "help": {
+        "message": "帮助",
+        "description": ""
+    },
+    "localCount": {
+        "message": "本地书签数量",
+        "description": ""
+    },
+    "remoteCount": {
+        "message": "远端书签数量",
+        "description": ""
+    },
+    "githubToken": {
+        "message": "GitHub Token",
+        "description": ""
+    },
+    "gistID": {
+        "message": "Gist ID",
+        "description": ""
+    },
+    "gistFileName": {
+        "message": "Gist 文件名",
+        "description": ""
+    },
+    "enableNotifications": {
+        "message": "启用通知",
+        "description": ""
+    },
+    "success": {
+        "message": "成功",
+        "description": ""
+    },
+    "failed": {
+        "message": "失败",
+        "description": ""
+    },
+    "error": {
+        "message": "错误",
+        "description": ""
+    },
+    "author": {
+        "message": "作者",
+        "description": ""
+    },
+    "uploadBookmarksDesc": {
+        "message": "把本地浏览器书签上传到远端存储",
+        "description": ""
+    },
+    "downloadBookmarksDesc": {
+        "message": "用远端存储中的书签替换本地书签",
+        "description": ""
+    },
+    "syncBookmarksDesc": {
+        "message": "同步本地和远端书签",
+        "description": ""
+    },
+    "removeAllBookmarksDesc": {
+        "message": "删除全部本地书签。请先备份。",
+        "description": ""
+    },
+    "popupTagline": {
+        "message": "本地优先的书签同步",
+        "description": ""
+    },
+    "popupStats": {
+        "message": "同步摘要",
+        "description": ""
+    },
+    "localFirst": {
+        "message": "本地优先",
+        "description": ""
+    },
+    "localBookmarks": {
+        "message": "本地书签",
+        "description": ""
+    },
+    "storageBackend": {
+        "message": "存储",
+        "description": ""
+    },
+    "storageWebDav": {
+        "message": "WebDAV",
+        "description": ""
+    },
+    "storageGist": {
+        "message": "GitHub Gist",
+        "description": ""
+    },
+    "unknownStorage": {
+        "message": "未知",
+        "description": ""
+    },
+    "lastStatus": {
+        "message": "最近状态",
+        "description": ""
+    },
+    "lastSync": {
+        "message": "最近同步",
+        "description": ""
+    },
+    "readyStatus": {
+        "message": "就绪",
+        "description": ""
+    },
+    "neverSynced": {
+        "message": "尚未同步",
+        "description": ""
+    },
+    "statusSuccess": {
+        "message": "成功",
+        "description": ""
+    },
+    "statusFailure": {
+        "message": "失败",
+        "description": ""
+    },
+    "autoSync": {
+        "message": "自动同步",
+        "description": ""
+    },
+    "autoSyncPopupDesc": {
+        "message": "使用你选择的存储后端和本地安全规则。",
+        "description": ""
+    },
+    "autoSyncEnabledStatus": {
+        "message": "自动同步已开启。",
+        "description": ""
+    },
+    "autoSyncDisabledStatus": {
+        "message": "自动同步已关闭。",
+        "description": ""
+    },
+    "commandRunning": {
+        "message": "正在执行...",
+        "description": ""
+    },
+    "commandFailed": {
+        "message": "命令执行失败。",
+        "description": ""
+    },
+    "uploadCommandQueued": {
+        "message": "上传已完成，请查看下面的最近状态。",
+        "description": ""
+    },
+    "downloadCommandQueued": {
+        "message": "下载已完成，请查看下面的最近状态。",
+        "description": ""
+    },
+    "syncCommandQueued": {
+        "message": "同步已完成，请查看下面的最近状态。",
+        "description": ""
+    },
+    "bookmarksWouldBeRemoved": {
+        "message": "将删除 {COUNT} 个书签。",
+        "description": ""
+    },
+    "confirmUpload": {
+        "message": "确认上传",
+        "description": ""
+    },
+    "dismiss": {
+        "message": "忽略",
+        "description": ""
+    },
+    "encryptionPasswordSaved": {
+        "message": "加密密码已保存在本机。",
+        "description": ""
+    },
+    "encryptionPasswordCleared": {
+        "message": "加密密码已清除。",
+        "description": ""
+    },
+    "testingStorage": {
+        "message": "正在测试存储连接...",
+        "description": ""
+    },
+    "storageTestUnknown": {
+        "message": "存储测试已完成。",
+        "description": ""
+    },
+    "storageTestFailed": {
+        "message": "存储测试失败。",
+        "description": ""
+    },
+    "grantingWebDavPermission": {
+        "message": "正在请求 WebDAV 权限...",
+        "description": ""
+    },
+    "webDavPermissionGranted": {
+        "message": "已授权",
+        "description": ""
+    },
+    "grantingGistPermission": {
+        "message": "正在请求 GitHub Gist 权限...",
+        "description": ""
+    },
+    "gistPermissionGranted": {
+        "message": "已授权",
+        "description": ""
+    },
+    "safetyStatusLoadFailed": {
+        "message": "无法读取安全状态。",
+        "description": ""
+    },
+    "conflictStatusLoadFailed": {
+        "message": "无法读取自动同步冲突状态。",
+        "description": ""
+    },
+    "confirmingUpload": {
+        "message": "正在确认上传...",
+        "description": ""
+    },
+    "uploadConfirmed": {
+        "message": "上传完成。",
+        "description": ""
+    },
+    "dismissingSafetyStatus": {
+        "message": "正在清除警告...",
+        "description": ""
+    },
+    "safetyStatusDismissed": {
+        "message": "警告已清除。",
+        "description": ""
+    },
+    "dismissingConflictStatus": {
+        "message": "正在清除警告...",
+        "description": ""
+    },
+    "conflictStatusDismissed": {
+        "message": "警告已清除。",
+        "description": ""
+    },
+    "accountlessOpenSourceDesc": {
+        "message": "使用自有存储的开源书签同步。",
+        "description": ""
+    },
+    "generalSettings": {
+        "message": "通用设置",
+        "description": ""
+    },
+    "deviceName": {
+        "message": "设备名称",
+        "description": ""
+    },
+    "deviceNamePlaceholder": {
+        "message": "主力电脑",
+        "description": ""
+    },
+    "storageType": {
+        "message": "存储类型",
+        "description": ""
+    },
+    "storageTypeDesc": {
+        "message": "WebDAV 是默认的自有存储路径。GitHub Gist 保留为兼容后端。",
+        "description": ""
+    },
+    "language": {
+        "message": "界面语言",
+        "description": ""
+    },
+    "languageAuto": {
+        "message": "自动",
+        "description": ""
+    },
+    "languageEnglish": {
+        "message": "English",
+        "description": ""
+    },
+    "languageChineseSimplified": {
+        "message": "简体中文",
+        "description": ""
+    },
+    "languageDesc": {
+        "message": "不用修改浏览器语言，也可以单独选择扩展界面语言。",
+        "description": ""
+    },
+    "testStorage": {
+        "message": "测试存储",
+        "description": ""
+    },
+    "webdavUrl": {
+        "message": "服务器地址",
+        "description": ""
+    },
+    "webdavUsername": {
+        "message": "用户名",
+        "description": ""
+    },
+    "webdavPassword": {
+        "message": "密码",
+        "description": ""
+    },
+    "webdavPath": {
+        "message": "文件路径",
+        "description": ""
+    },
+    "grantWebDavPermission": {
+        "message": "授予 WebDAV 权限",
+        "description": ""
+    },
+    "gistCompatibilityDesc": {
+        "message": "给已有 GitHub Gist 同步数据的用户保留的兼容后端。",
+        "description": ""
+    },
+    "grantGistPermission": {
+        "message": "授予 GitHub Gist 权限",
+        "description": ""
+    },
+    "githubTokenPlaceholder": {
+        "message": "GitHub token",
+        "description": ""
+    },
+    "getGithubToken": {
+        "message": "获取 Token",
+        "description": ""
+    },
+    "gistIdPlaceholder": {
+        "message": "gist ID",
+        "description": ""
+    },
+    "encryptionSettings": {
+        "message": "加密设置",
+        "description": ""
+    },
+    "encryptionWarning": {
+        "message": "加密是可选项。如果忘记密码，远端加密书签数据无法恢复。",
+        "description": ""
+    },
+    "enableEncryption": {
+        "message": "启用加密",
+        "description": ""
+    },
+    "enableEncryptionDesc": {
+        "message": "开启后，远端存储只会收到加密后的书签内容。",
+        "description": ""
+    },
+    "encryptionPassword": {
+        "message": "加密密码",
+        "description": ""
+    },
+    "encryptionPasswordPlaceholder": {
+        "message": "仅保存在本机",
+        "description": ""
+    },
+    "save": {
+        "message": "保存",
+        "description": ""
+    },
+    "clear": {
+        "message": "清除",
+        "description": ""
+    },
+    "syncSettings": {
+        "message": "同步设置",
+        "description": ""
+    },
+    "autoSyncBlocked": {
+        "message": "自动同步已拦截",
+        "description": ""
+    },
+    "autoSyncBlockedDesc": {
+        "message": "删除保护拦截了一次自动上传，因为它可能删除大量远端书签。",
+        "description": ""
+    },
+    "previousRemoteCount": {
+        "message": "上次远端数量",
+        "description": ""
+    },
+    "currentLocalCount": {
+        "message": "当前本地数量",
+        "description": ""
+    },
+    "deletedBookmarks": {
+        "message": "将删除的书签",
+        "description": ""
+    },
+    "deleteThreshold": {
+        "message": "阈值",
+        "description": ""
+    },
+    "autoSyncPaused": {
+        "message": "自动同步已暂停",
+        "description": ""
+    },
+    "localChanged": {
+        "message": "本地已变更",
+        "description": ""
+    },
+    "yes": {
+        "message": "是",
+        "description": ""
+    },
+    "no": {
+        "message": "否",
+        "description": ""
+    },
+    "blockedAt": {
+        "message": "拦截时间",
+        "description": ""
+    },
+    "enableAutoSync": {
+        "message": "启用自动同步",
+        "description": ""
+    },
+    "enableAutoSyncDesc": {
+        "message": "自动同步在浏览器扩展内运行，并使用你配置的存储。",
+        "description": ""
+    },
+    "syncIntervalMinutes": {
+        "message": "同步间隔",
+        "description": ""
+    },
+    "minutes5": {
+        "message": "5 分钟",
+        "description": ""
+    },
+    "minutes10": {
+        "message": "10 分钟",
+        "description": ""
+    },
+    "minutes15": {
+        "message": "15 分钟",
+        "description": ""
+    },
+    "minutes30": {
+        "message": "30 分钟",
+        "description": ""
+    },
+    "minutes60": {
+        "message": "60 分钟",
+        "description": ""
+    },
+    "enableSafeMode": {
+        "message": "删除保护",
+        "description": ""
+    },
+    "safeModeDeleteThreshold": {
+        "message": "删除阈值 (%)",
+        "description": ""
+    },
+    "maxHistoryRecords": {
+        "message": "历史记录数量",
+        "description": ""
+    },
+    "syncHistory": {
+        "message": "同步历史",
+        "description": ""
+    },
+    "refresh": {
+        "message": "刷新",
+        "description": ""
+    },
+    "clearHistory": {
+        "message": "清除",
+        "description": ""
+    },
+    "noSyncHistory": {
+        "message": "暂无同步历史。",
+        "description": ""
+    },
+    "historyTime": {
+        "message": "时间",
+        "description": ""
+    },
+    "historyOperation": {
+        "message": "操作",
+        "description": ""
+    },
+    "historyStatus": {
+        "message": "状态",
+        "description": ""
+    },
+    "historyStorage": {
+        "message": "存储",
+        "description": ""
+    },
+    "historyCount": {
+        "message": "数量",
+        "description": ""
+    },
+    "historyMessage": {
+        "message": "消息",
+        "description": ""
+    },
+    "localSnapshots": {
+        "message": "本地快照",
+        "description": ""
+    },
+    "clearSnapshots": {
+        "message": "清除",
+        "description": ""
+    },
+    "noLocalSnapshots": {
+        "message": "暂无本地快照。",
+        "description": ""
+    },
+    "snapshotTime": {
+        "message": "时间",
+        "description": ""
+    },
+    "snapshotReason": {
+        "message": "原因",
+        "description": ""
+    },
+    "snapshotDevice": {
+        "message": "设备",
+        "description": ""
+    },
+    "snapshotCount": {
+        "message": "数量",
+        "description": ""
+    },
+    "snapshotAction": {
+        "message": "操作",
+        "description": ""
+    },
+    "restoringSnapshot": {
+        "message": "正在恢复...",
+        "description": ""
+    },
+    "restoreSnapshot": {
+        "message": "恢复",
+        "description": ""
+    },
+    "diagnostics": {
+        "message": "诊断",
+        "description": ""
+    },
+    "generateDiagnostics": {
+        "message": "生成报告",
+        "description": ""
+    },
+    "copyDiagnostics": {
+        "message": "复制",
+        "description": ""
+    },
+    "emailDiagnostics": {
+        "message": "\u53d1\u9001\u90ae\u4ef6",
+        "description": ""
+    },
+    "generatingDiagnostics": {
+        "message": "正在生成诊断报告...",
+        "description": ""
+    },
+    "diagnosticsGenerated": {
+        "message": "诊断报告已生成。",
+        "description": ""
+    },
+    "diagnosticsEmailOpened": {
+        "message": "\u90ae\u4ef6\u8349\u7a3f\u5df2\u6253\u5f00\uff0c\u53d1\u9001\u524d\u8bf7\u5148\u68c0\u67e5\u62a5\u544a\u5185\u5bb9\u3002",
+        "description": ""
+    },
+    "diagnosticsCopied": {
+        "message": "诊断报告已复制。",
+        "description": ""
+    }
+}

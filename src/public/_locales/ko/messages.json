@@ -1,0 +1,90 @@
+{
+    "extensionName": {
+        "message": "LibreBookmarkSync",
+        "description": ""
+    },
+    "extensionDescription": {
+        "message": "Accountless open-source bookmark sync across browsers",
+        "description": ""
+    },
+    "uploadBookmarks": {
+        "message": "Upload Bookmarks",
+        "description": ""
+    },
+    "downloadBookmarks": {
+        "message": "Download Bookmarks",
+        "description": ""
+    },
+    "syncBookmarks": {
+        "message": "Sync Bookmarks",
+        "description": ""
+    },
+    "removeAllBookmarks": {
+        "message": "Remove All Bookmarks",
+        "description": ""
+    },
+    "settings": {
+        "message": "Settings",
+        "description": ""
+    },
+    "help": {
+        "message": "Help",
+        "description": ""
+    },
+    "localCount": {
+        "message": "Local Bookmark Count",
+        "description": ""
+    },
+    "remoteCount": {
+        "message": "Remote Bookmark Count",
+        "description": ""
+    },
+    "githubToken": {
+        "message": "GitHub Token",
+        "description": ""
+    },
+    "gistID": {
+        "message": "Gist ID",
+        "description": ""
+    },
+    "gistFileName": {
+        "message": "Gist File Name",
+        "description": ""
+    },
+    "enableNotifications": {
+        "message": "Enable Notifications",
+        "description": ""
+    },
+    "success": {
+        "message": "Success",
+        "description": ""
+    },
+    "failed": {
+        "message": "Failed",
+        "description": ""
+    },
+    "error": {
+        "message": "Error",
+        "description": ""
+    },
+    "author": {
+        "message": "Author",
+        "description": ""
+    },
+    "uploadBookmarksDesc": {
+        "message": "Upload all local browser bookmarks to remote storage",
+        "description": ""
+    },
+    "downloadBookmarksDesc": {
+        "message": "Clear local bookmarks first, then download all bookmarks from remote storage",
+        "description": ""
+    },
+    "syncBookmarksDesc": {
+        "message": "Sync local and remote bookmarks",
+        "description": ""
+    },
+    "removeAllBookmarksDesc": {
+        "message": "Remove all local bookmarks. Back up first.",
+        "description": ""
+    }
+}

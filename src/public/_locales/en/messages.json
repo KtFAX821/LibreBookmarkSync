@@ -1,0 +1,594 @@
+{
+    "extensionName": {
+        "message": "LibreBookmarkSync",
+        "description": ""
+    },
+    "extensionDescription": {
+        "message": "Open-source bookmark sync across browsers",
+        "description": ""
+    },
+    "uploadBookmarks": {
+        "message": "Upload",
+        "description": ""
+    },
+    "downloadBookmarks": {
+        "message": "Download",
+        "description": ""
+    },
+    "syncBookmarks": {
+        "message": "Sync Bookmarks",
+        "description": ""
+    },
+    "syncNow": {
+        "message": "Sync Now",
+        "description": ""
+    },
+    "removeAllBookmarks": {
+        "message": "Remove All Bookmarks",
+        "description": ""
+    },
+    "settings": {
+        "message": "Settings",
+        "description": ""
+    },
+    "openSettings": {
+        "message": "Settings",
+        "description": ""
+    },
+    "help": {
+        "message": "Help",
+        "description": ""
+    },
+    "localCount": {
+        "message": "Local Bookmark Count",
+        "description": ""
+    },
+    "remoteCount": {
+        "message": "Remote Bookmark Count",
+        "description": ""
+    },
+    "githubToken": {
+        "message": "GitHub Token",
+        "description": ""
+    },
+    "gistID": {
+        "message": "Gist ID",
+        "description": ""
+    },
+    "gistFileName": {
+        "message": "Gist File Name",
+        "description": ""
+    },
+    "enableNotifications": {
+        "message": "Enable Notifications",
+        "description": ""
+    },
+    "success": {
+        "message": "Success",
+        "description": ""
+    },
+    "failed": {
+        "message": "Failed",
+        "description": ""
+    },
+    "error": {
+        "message": "Error",
+        "description": ""
+    },
+    "author": {
+        "message": "Author",
+        "description": ""
+    },
+    "uploadBookmarksDesc": {
+        "message": "Upload local browser bookmarks to remote storage",
+        "description": ""
+    },
+    "downloadBookmarksDesc": {
+        "message": "Replace local bookmarks with bookmarks from remote storage",
+        "description": ""
+    },
+    "syncBookmarksDesc": {
+        "message": "Sync local and remote bookmarks",
+        "description": ""
+    },
+    "removeAllBookmarksDesc": {
+        "message": "Remove all local bookmarks. Back up first.",
+        "description": ""
+    },
+    "popupTagline": {
+        "message": "Local-first bookmark sync",
+        "description": ""
+    },
+    "popupStats": {
+        "message": "Sync summary",
+        "description": ""
+    },
+    "localFirst": {
+        "message": "Local-first",
+        "description": ""
+    },
+    "localBookmarks": {
+        "message": "Local Bookmarks",
+        "description": ""
+    },
+    "storageBackend": {
+        "message": "Storage",
+        "description": ""
+    },
+    "storageWebDav": {
+        "message": "WebDAV",
+        "description": ""
+    },
+    "storageGist": {
+        "message": "GitHub Gist",
+        "description": ""
+    },
+    "unknownStorage": {
+        "message": "Unknown",
+        "description": ""
+    },
+    "lastStatus": {
+        "message": "Last Status",
+        "description": ""
+    },
+    "lastSync": {
+        "message": "Last Sync",
+        "description": ""
+    },
+    "readyStatus": {
+        "message": "Ready",
+        "description": ""
+    },
+    "neverSynced": {
+        "message": "Never",
+        "description": ""
+    },
+    "statusSuccess": {
+        "message": "Success",
+        "description": ""
+    },
+    "statusFailure": {
+        "message": "Failed",
+        "description": ""
+    },
+    "autoSync": {
+        "message": "Auto Sync",
+        "description": ""
+    },
+    "autoSyncPopupDesc": {
+        "message": "Uses your selected storage backend and local safety rules.",
+        "description": ""
+    },
+    "autoSyncEnabledStatus": {
+        "message": "Auto sync enabled.",
+        "description": ""
+    },
+    "autoSyncDisabledStatus": {
+        "message": "Auto sync disabled.",
+        "description": ""
+    },
+    "commandRunning": {
+        "message": "Running...",
+        "description": ""
+    },
+    "commandFailed": {
+        "message": "Command failed.",
+        "description": ""
+    },
+    "uploadCommandQueued": {
+        "message": "Upload finished. Check the latest status below.",
+        "description": ""
+    },
+    "downloadCommandQueued": {
+        "message": "Download finished. Check the latest status below.",
+        "description": ""
+    },
+    "syncCommandQueued": {
+        "message": "Sync finished. Check the latest status below.",
+        "description": ""
+    },
+    "bookmarksWouldBeRemoved": {
+        "message": "{COUNT} bookmarks would be removed.",
+        "description": ""
+    },
+    "confirmUpload": {
+        "message": "Confirm Upload",
+        "description": ""
+    },
+    "dismiss": {
+        "message": "Dismiss",
+        "description": ""
+    },
+    "encryptionPasswordSaved": {
+        "message": "Encryption password saved locally.",
+        "description": ""
+    },
+    "encryptionPasswordCleared": {
+        "message": "Encryption password cleared.",
+        "description": ""
+    },
+    "testingStorage": {
+        "message": "Testing storage connection...",
+        "description": ""
+    },
+    "storageTestUnknown": {
+        "message": "Storage test completed.",
+        "description": ""
+    },
+    "storageTestFailed": {
+        "message": "Storage test failed.",
+        "description": ""
+    },
+    "grantingWebDavPermission": {
+        "message": "Requesting WebDAV permission...",
+        "description": ""
+    },
+    "webDavPermissionGranted": {
+        "message": "Permission granted for",
+        "description": ""
+    },
+    "grantingGistPermission": {
+        "message": "Requesting GitHub Gist permission...",
+        "description": ""
+    },
+    "gistPermissionGranted": {
+        "message": "Permission granted for",
+        "description": ""
+    },
+    "safetyStatusLoadFailed": {
+        "message": "Could not load safety status.",
+        "description": ""
+    },
+    "conflictStatusLoadFailed": {
+        "message": "Could not load auto-sync conflict status.",
+        "description": ""
+    },
+    "confirmingUpload": {
+        "message": "Confirming upload...",
+        "description": ""
+    },
+    "uploadConfirmed": {
+        "message": "Upload completed.",
+        "description": ""
+    },
+    "dismissingSafetyStatus": {
+        "message": "Clearing warning...",
+        "description": ""
+    },
+    "safetyStatusDismissed": {
+        "message": "Warning cleared.",
+        "description": ""
+    },
+    "dismissingConflictStatus": {
+        "message": "Clearing warning...",
+        "description": ""
+    },
+    "conflictStatusDismissed": {
+        "message": "Warning cleared.",
+        "description": ""
+    },
+    "accountlessOpenSourceDesc": {
+        "message": "Open-source bookmark sync with self-owned storage.",
+        "description": ""
+    },
+    "generalSettings": {
+        "message": "General Settings",
+        "description": ""
+    },
+    "deviceName": {
+        "message": "Device Name",
+        "description": ""
+    },
+    "deviceNamePlaceholder": {
+        "message": "Main PC",
+        "description": ""
+    },
+    "storageType": {
+        "message": "Storage Type",
+        "description": ""
+    },
+    "storageTypeDesc": {
+        "message": "WebDAV is the default self-owned storage path. GitHub Gist remains available as a compatibility backend.",
+        "description": ""
+    },
+    "language": {
+        "message": "Interface Language",
+        "description": ""
+    },
+    "languageAuto": {
+        "message": "Auto",
+        "description": ""
+    },
+    "languageEnglish": {
+        "message": "English",
+        "description": ""
+    },
+    "languageChineseSimplified": {
+        "message": "Simplified Chinese",
+        "description": ""
+    },
+    "languageDesc": {
+        "message": "Choose the extension UI language without changing the browser language.",
+        "description": ""
+    },
+    "testStorage": {
+        "message": "Test Storage",
+        "description": ""
+    },
+    "webdavUrl": {
+        "message": "Server URL",
+        "description": ""
+    },
+    "webdavUsername": {
+        "message": "Username",
+        "description": ""
+    },
+    "webdavPassword": {
+        "message": "Password",
+        "description": ""
+    },
+    "webdavPath": {
+        "message": "File Path",
+        "description": ""
+    },
+    "grantWebDavPermission": {
+        "message": "Grant WebDAV Permission",
+        "description": ""
+    },
+    "gistCompatibilityDesc": {
+        "message": "Optional compatibility backend for existing GitHub Gist users.",
+        "description": ""
+    },
+    "grantGistPermission": {
+        "message": "Grant GitHub Gist Permission",
+        "description": ""
+    },
+    "githubTokenPlaceholder": {
+        "message": "GitHub token",
+        "description": ""
+    },
+    "getGithubToken": {
+        "message": "Get Token",
+        "description": ""
+    },
+    "gistIdPlaceholder": {
+        "message": "gist ID",
+        "description": ""
+    },
+    "encryptionSettings": {
+        "message": "Encryption Settings",
+        "description": ""
+    },
+    "encryptionWarning": {
+        "message": "Encryption is optional. If you lose the password, encrypted remote bookmark data cannot be recovered.",
+        "description": ""
+    },
+    "enableEncryption": {
+        "message": "Enable Encryption",
+        "description": ""
+    },
+    "enableEncryptionDesc": {
+        "message": "When enabled, remote storage receives encrypted bookmark content.",
+        "description": ""
+    },
+    "encryptionPassword": {
+        "message": "Encryption Password",
+        "description": ""
+    },
+    "encryptionPasswordPlaceholder": {
+        "message": "Stored only on this device",
+        "description": ""
+    },
+    "save": {
+        "message": "Save",
+        "description": ""
+    },
+    "clear": {
+        "message": "Clear",
+        "description": ""
+    },
+    "syncSettings": {
+        "message": "Sync Settings",
+        "description": ""
+    },
+    "autoSyncBlocked": {
+        "message": "Auto sync blocked",
+        "description": ""
+    },
+    "autoSyncBlockedDesc": {
+        "message": "Deletion protection stopped an automatic upload because it may remove many remote bookmarks.",
+        "description": ""
+    },
+    "previousRemoteCount": {
+        "message": "Previous remote count",
+        "description": ""
+    },
+    "currentLocalCount": {
+        "message": "Current local count",
+        "description": ""
+    },
+    "deletedBookmarks": {
+        "message": "Bookmarks to remove",
+        "description": ""
+    },
+    "deleteThreshold": {
+        "message": "Threshold",
+        "description": ""
+    },
+    "autoSyncPaused": {
+        "message": "Auto sync paused",
+        "description": ""
+    },
+    "localChanged": {
+        "message": "Local changed",
+        "description": ""
+    },
+    "yes": {
+        "message": "Yes",
+        "description": ""
+    },
+    "no": {
+        "message": "No",
+        "description": ""
+    },
+    "blockedAt": {
+        "message": "Blocked at",
+        "description": ""
+    },
+    "enableAutoSync": {
+        "message": "Enable Auto Sync",
+        "description": ""
+    },
+    "enableAutoSyncDesc": {
+        "message": "Auto sync runs inside the browser extension and uses your configured storage.",
+        "description": ""
+    },
+    "syncIntervalMinutes": {
+        "message": "Sync Interval",
+        "description": ""
+    },
+    "minutes5": {
+        "message": "5 minutes",
+        "description": ""
+    },
+    "minutes10": {
+        "message": "10 minutes",
+        "description": ""
+    },
+    "minutes15": {
+        "message": "15 minutes",
+        "description": ""
+    },
+    "minutes30": {
+        "message": "30 minutes",
+        "description": ""
+    },
+    "minutes60": {
+        "message": "60 minutes",
+        "description": ""
+    },
+    "enableSafeMode": {
+        "message": "Deletion Protection",
+        "description": ""
+    },
+    "safeModeDeleteThreshold": {
+        "message": "Delete Threshold (%)",
+        "description": ""
+    },
+    "maxHistoryRecords": {
+        "message": "History Records",
+        "description": ""
+    },
+    "syncHistory": {
+        "message": "Sync History",
+        "description": ""
+    },
+    "refresh": {
+        "message": "Refresh",
+        "description": ""
+    },
+    "clearHistory": {
+        "message": "Clear",
+        "description": ""
+    },
+    "noSyncHistory": {
+        "message": "No sync history yet.",
+        "description": ""
+    },
+    "historyTime": {
+        "message": "Time",
+        "description": ""
+    },
+    "historyOperation": {
+        "message": "Operation",
+        "description": ""
+    },
+    "historyStatus": {
+        "message": "Status",
+        "description": ""
+    },
+    "historyStorage": {
+        "message": "Storage",
+        "description": ""
+    },
+    "historyCount": {
+        "message": "Count",
+        "description": ""
+    },
+    "historyMessage": {
+        "message": "Message",
+        "description": ""
+    },
+    "localSnapshots": {
+        "message": "Local Snapshots",
+        "description": ""
+    },
+    "clearSnapshots": {
+        "message": "Clear",
+        "description": ""
+    },
+    "noLocalSnapshots": {
+        "message": "No local snapshots yet.",
+        "description": ""
+    },
+    "snapshotTime": {
+        "message": "Time",
+        "description": ""
+    },
+    "snapshotReason": {
+        "message": "Reason",
+        "description": ""
+    },
+    "snapshotDevice": {
+        "message": "Device",
+        "description": ""
+    },
+    "snapshotCount": {
+        "message": "Count",
+        "description": ""
+    },
+    "snapshotAction": {
+        "message": "Action",
+        "description": ""
+    },
+    "restoringSnapshot": {
+        "message": "Restoring...",
+        "description": ""
+    },
+    "restoreSnapshot": {
+        "message": "Restore",
+        "description": ""
+    },
+    "diagnostics": {
+        "message": "Diagnostics",
+        "description": ""
+    },
+    "generateDiagnostics": {
+        "message": "Generate Report",
+        "description": ""
+    },
+    "copyDiagnostics": {
+        "message": "Copy",
+        "description": ""
+    },
+    "emailDiagnostics": {
+        "message": "Email",
+        "description": ""
+    },
+    "generatingDiagnostics": {
+        "message": "Generating diagnostic report...",
+        "description": ""
+    },
+    "diagnosticsGenerated": {
+        "message": "Diagnostic report generated.",
+        "description": ""
+    },
+    "diagnosticsCopied": {
+        "message": "Diagnostic report copied.",
+        "description": ""
+    },
+    "diagnosticsEmailOpened": {
+        "message": "Email draft opened. Review the report before sending.",
+        "description": ""
+    }
+}
