@@ -1,0 +1,17 @@
+LibreBookmarkSync
+
+This project is an independent open-source browser extension based on the
+publicly available Apache-2.0 licensed BookmarkHub source code.
+
+Original project:
+  BookmarkHub
+  Copyright and authorship retained by the original contributors.
+  Project link: https://github.com/dudor/BookmarkHub
+
+LibreBookmarkSync does not include, copy, decompile, bypass, or redistribute
+proprietary code from any later commercial or store-distributed version of
+BookmarkHub. All new functionality in this source tree is independently
+implemented.
+
+LibreBookmarkSync does not provide paid tiers, account login, subscription
+checks, or centralized feature authorization.

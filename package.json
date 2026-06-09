@@ -1,0 +1,62 @@
+{
+  "name": "libre-bookmark-sync",
+  "description": "Accountless open-source bookmark sync across browsers",
+  "keywords": [
+    "LibreBookmarkSync",
+    "sync bookmarks"
+  ],
+  "private": true,
+  "version": "0.1.0-local",
+  "type": "module",
+  "author": "LibreBookmarkSync contributors; based on dudor/BookmarkHub",
+  "license": "Apache-2.0",
+  "scripts": {
+    "dev": "wxt",
+    "dev:firefox": "wxt -b firefox",
+    "build": "wxt build",
+    "build:firefox": "wxt build -b firefox",
+    "zip": "wxt zip",
+    "zip:firefox": "wxt zip -b firefox",
+    "check:release": "node scripts/check-release.cjs",
+    "check:docs": "node scripts/check-docs.cjs",
+    "check:github": "node scripts/check-github-publishing.cjs",
+    "check:locales": "node scripts/check-locales.cjs",
+    "check:ui-style": "node scripts/check-ui-style.cjs",
+    "check:runtime-preflight": "node scripts/check-runtime-preflight.cjs",
+    "check:packages": "node scripts/check-packages.cjs",
+    "verify:release": "node scripts/verify-release.cjs",
+    "github:files": "node scripts/list-github-publish-files.cjs",
+    "github:prepare": "node scripts/prepare-github-publish-source.cjs",
+    "analyze:bookmarks": "node scripts/analyze-bookmark-export.cjs",
+    "smoke:list": "node scripts/launch-smoke-test.cjs --list",
+    "smoke:chrome": "node scripts/launch-smoke-test.cjs --browser=chrome",
+    "smoke:edge": "node scripts/launch-smoke-test.cjs --browser=edge",
+    "smoke:firefox": "node scripts/launch-smoke-test.cjs --browser=firefox",
+    "smoke:chrome:runtime": "node scripts/chrome-runtime-smoke.cjs",
+    "smoke:chrome:runtime:dry": "node scripts/chrome-runtime-smoke.cjs --dry-run",
+    "smoke:edge:runtime": "node scripts/chrome-runtime-smoke.cjs --browser=edge",
+    "smoke:edge:runtime:dry": "node scripts/chrome-runtime-smoke.cjs --browser=edge --dry-run",
+    "compile": "tsc --noEmit",
+    "test:merge": "node scripts/run-merge-tests.cjs",
+    "postinstall": "wxt prepare"
+  },
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "ky": "^1.7.3",
+    "lz-string": "^1.5.0",
+    "react": "^18.3.1",
+    "react-bootstrap": "^1.5.2",
+    "react-dom": "^18.3.1",
+    "react-icons": "^5.4.0",
+    "webext-options-sync": "^4.3.0"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.280",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@wxt-dev/auto-icons": "^1.0.2",
+    "@wxt-dev/module-react": "^1.1.1",
+    "typescript": "^5.6.3",
+    "wxt": "^0.19.13"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "outDir": ".tmp/merge-tests",
+    "rootDir": ".",
+    "noEmit": false,
+    "allowImportingTsExtensions": false
+  },
+  "include": [
+    ".wxt/types/imports.d.ts",
+    "tests/**/*.ts",
+    "src/bookmarks/bookmarkTree.ts",
+    "src/diagnostics/diagnosticMail.ts",
+    "src/diagnostics/diagnosticReport.ts",
+    "src/storage/gistAdapter.ts",
+    "src/storage/gistPermissions.ts",
+    "src/storage/storageAdapter.ts",
+    "src/storage/storageFactory.ts",
+    "src/storage/testStorageConnection.ts",
+    "src/storage/webdavAdapter.ts",
+    "src/storage/webdavPermissions.ts",
+    "src/history/bookmarkSnapshotData.ts",
+    "src/history/syncHistory.ts",
+    "src/settings/appSettings.ts",
+    "src/settings/encryptionSettings.ts",
+    "src/settings/settingNormalization.ts",
+    "src/sync/autoSyncConflict.ts",
+    "src/sync/autoSyncSchedule.ts",
+    "src/sync/bookmarkMerge.ts",
+    "src/sync/safety.ts",
+    "src/sync/syncDocument.ts",
+    "src/sync/syncState.ts",
+    "src/crypto/encryption.ts",
+    "src/utils/models.ts",
+    "src/utils/setting.ts",
+    "src/utils/runtimeMessages.ts"
+  ]
+}
